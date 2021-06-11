@@ -8,47 +8,9 @@ section{
     bottom: 0%;
     width: 100%;    
     position: fixed;
+    overflow:auto; 
 }
 
-.section-head{
-    background-color: linen;
-    padding-left: 2%;
-    display: flex;
-    
-}
-
-p{
-    margin-bottom: 0%;
-}
-
-#paragrafo-2{
-    font-size: 24px;
-    margin-bottom: 0%;
-}
-
-#paragrafo-3{
-    margin-top: 0%;
-    font-size: 18px;
-}
-
-#title{
-    background-color: linen;
-}
-
-#checkbox{
-    margin-left: 200px;
-    margin-top: 25px;
-    
-}
-
-#botao-linguagem{
-    background-color: linen;  
-    padding-bottom: 10%;
-    padding-top: 10%;
-    padding-left: 10%;
-    padding-right: 10%;
-    
-}
 
 
 
@@ -57,4 +19,3 @@ p{
     margin-top: 10%;
     
 }
-

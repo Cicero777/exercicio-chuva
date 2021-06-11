@@ -1,0 +1,31 @@
+
+.rodape{
+    top: 90%;
+    margin-bottom: 0%;
+    margin-right: 22%;
+    margin-left: 1%;
+    padding-left: 30px;
+    display: flex;
+    border-top: 2px solid lightgray;
+    
+}
+
+.botao-rodape{
+    width: 100%;
+    background-color:rebeccapurple;
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    font-size: 22px;
+}
+
+.logo-rodape{
+    margin-top: 20px;
+}
+.paragrafo-rodape{
+    margin-top: 30px;
+    padding-left: 30px;
+}
+

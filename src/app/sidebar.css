@@ -4,6 +4,7 @@ nav {
     padding-top: 0%;
     padding-bottom: 100%;
     position: fixed;
+    z-index: 3;
 }
 
 .container-fluid{
@@ -41,7 +42,14 @@ nav {
 
 
 
-
-.container{
-    margin-left: 70%;
+.container-card{
+    position: absolute;
+    z-index: 2;
 }
+
+.container-scroll{
+    position: absolute;
+    z-index: 1;
+    
+}
+

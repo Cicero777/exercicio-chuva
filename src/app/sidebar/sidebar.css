@@ -1,10 +1,11 @@
+
 nav {
     background-color: white;
     width: 15%;
     padding-top: 0%;
     padding-bottom: 100%;
     position: fixed;
-    z-index: 3;
+    z-index: 1;
 }
 
 .container-fluid{

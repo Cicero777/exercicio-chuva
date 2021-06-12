@@ -1,11 +1,10 @@
 
-nav {
+.barra-lateral {
     background-color: white;
     width: 15%;
     padding-top: 0%;
     padding-bottom: 100%;
     position: fixed;
-    z-index: 1;
 }
 
 .container-fluid{
@@ -41,16 +40,17 @@ nav {
     background-color: white;
 }
 
-
-
-.container-card{
-    position: absolute;
-    z-index: 2;
+@media screen and (max-width: 992px) {
+    .barra-lateral{
+        display: block !important;  
+        height: 4em;
+    }
+    .nav-item-1 {
+      background-color: blue;
+    }
 }
-
-.container-scroll{
-    position: absolute;
-    z-index: 1;
-    
-}
-
+@media screen and (max-width: 600px) {
+    .nav-item-1 {
+      background-color: olive;
+    }
+  }

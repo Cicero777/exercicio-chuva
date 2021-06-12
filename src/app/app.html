@@ -1,18 +1,48 @@
 
 
+
 <!--Encapsulamento da barra lateral-->
 <app-sidebar></app-sidebar>
 
-
 <!--Seção do scroll com componentes-->
-<section>
+<section id="scroll">
+  
+  
   
   <!--Encapsulamento do cabeçalho-->
   <app-head></app-head>
 
-  <!--Encapsulamento: card de informações-->
-  <div class="card-detalhes">
+  <div class="head-2">
+    <div id="bloco-1">
+      <p id="paragrafo-1"><b>Análise sensorial de preparações funcionais desenvolvidadas para escolares
+        entre 09 e 15 anos, do município de Campinas/SP
+      </b></p>  
+    </div>
+    
+    <div id="bloco-2">
+      <div id="container-botoes">
+        <button id="botao-1 type="button>Download</button>
+        <button id="botao-2" type="button">Simbolo</button>
+        <button id="botao-3" type="button"></button>
+      </div>
+      <p ><b>Como citar este trab?</b></p>
+    </div>
+
+  </div>
+
+  <div id="bloco-3">
+    <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/n0Vfybi5g04" title="YouTube video player" 
+      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+    
+    <!--Encapsulamento do card de informações-->
     <app-card></app-card>
+    
+  </div>
+
+  <!--Encapsulamento do card de resumo-->
+  <div id="bloco-4">
+    <app-card-resumo></app-card-resumo>
   </div>
 
   <!--Encapsulamento do rodapé-->

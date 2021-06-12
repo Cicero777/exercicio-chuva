@@ -1,21 +1,71 @@
 
 
 
-section{
+#scroll{
     background-color: white;
-    left: 282px;
     top: 0%;
     bottom: 0%;
-    width: 100%;    
-    position: fixed;
-    overflow:auto; 
+    left: 282px;  
+    padding: 0%;  
+    position: absolute;
+    overflow: auto; 
+}
+
+.sidebar{
+    position: absolute;
+}
+
+.head-2{
+    margin-top: 20px;
+    margin-bottom: 0%;
+    padding-right: 10%;
+    margin-left: 1%;
+    padding-left: 30px;
+    display: flex;
+    color: orange;
+    
+}
+
+#bloco-1{
+    padding: 0%;
+}
+
+#bloco-2{
+    display: inline;
+    margin-right: 2%;
+    margin-left: 10%;
+}
+
+#paragrafo-1{
+    font-size: 24px;
 }
 
 
 
+#container-botoes{
+    padding: 0%;
+    margin-bottom: 3%;
+    display: flex;
+}
 
-.card-detalhes{
-    margin-left: 60%;
-    margin-top: 10%;
-    
+button{
+    padding: 5%;
+    background-color: darkorange;
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+    margin-left: 2%;
+    font-size: 18px;
+}
+
+#video{
+    margin-left: 3%;
+    width: 67%;
+    height: 100%;
+}
+
+#bloco-3{
+    display: flex;
+    padding: 0%;
+    height: 60%;
 }

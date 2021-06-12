@@ -21,6 +21,9 @@
 
 
 .card-body{
+    overflow: auto;
     padding-top: 0%;
     height: 525px;
+    overflow-y: scroll;
+    
 }

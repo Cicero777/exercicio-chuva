@@ -1,10 +1,12 @@
 
 .barra-lateral {
-    background-color: white;
+    background-color: lightgray;
     width: 15%;
     padding-top: 0%;
     padding-bottom: 100%;
     position: fixed;
+    padding-right: 5px;
+    
 }
 
 .container-fluid{
@@ -38,6 +40,7 @@
 
 .nav-item-x{
     background-color: white;
+    padding-bottom: 100%;
 }
 
 @media screen and (max-width: 992px) {

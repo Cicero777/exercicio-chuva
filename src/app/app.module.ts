@@ -8,6 +8,7 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { RodapeComponent } from './rodape/rodape.component';
 import { HeadComponent } from './head/head.component';
 import { CardResumoComponent } from './card-resumo/card-resumo.component';
+import { CardDiscussoesComponent } from './card-discussoes/card-discussoes.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { CardResumoComponent } from './card-resumo/card-resumo.component';
     RodapeComponent,
     HeadComponent,
     CardResumoComponent,
+    CardDiscussoesComponent,
   ],
   imports: [
     BrowserModule,

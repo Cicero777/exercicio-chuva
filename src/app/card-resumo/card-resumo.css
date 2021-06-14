@@ -1,11 +1,12 @@
 
 .card{
-    margin: auto;
+    
     margin-top: 3%;
     margin-left: 19%;
     width: 70%;
     height: 20%;
     margin-bottom: 5%;
+    cursor: pointer;
     
 }
 
@@ -21,29 +22,21 @@
 
 
 label[for="btn-resumo"]{
-    padding: 5px;
-    color: white;
-    font-family: Arial;
-    text-align: center;
-    font-size: 30px;
-    cursor: pointer;
-    width: 50px;
-    height: 50px;
-    
+    text-align: left;
+    background-color: blue;
     
 }
 
+/*
 #btn-resumo{
     height: 100%;
     width: 100%;
     cursor: pointer;
-    position: absolute;
-    display: none;
-
+    background-color: brown;    
 }
+*/
 
 #btn-resumo:checked ~ .head{
-    margin-left: 0;
     background-color: darkslategray;
 }
 
@@ -51,9 +44,9 @@ label[for="btn-resumo"]{
 @media (max-width: 992px) {
     .card{
         margin-top: 0%;
-        margin-left: 50%;
+        margin-left: 10%;
         margin-right: 90%;
         margin-bottom: 5%;
-        background-color: chartreuse;
+        margin-top: 55%;
     }
 }

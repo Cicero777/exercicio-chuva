@@ -52,7 +52,7 @@
 }
 
 
-a:hover{
+.nav-item:hover{
     background-color: linen;
     padding-left: 12%;
     
@@ -84,13 +84,32 @@ label[for="btn-sidebar"]{
     }
     #btn-sidebar:checked ~ .sidebar{
         margin-left: 0;
+        width: 0px;
     }
 
     .sidebar{
-        margin-top: 5px;
         margin-left: -100%;
         transition: all .4s;
+        background-color: white;
+        border-right-width: 0px;
+    }
+    .imagem-logo{
+        display: none;
+    }
+    .nav-item{
+        margin-bottom: 0px;
+    }
+    .container-fluid{
+        background-color: magenta;
         
     }
-    
+
+    .nav-link-1{
+        font-size: 20px;
+    }
+
+    .nav-item-1{
+        text-align: center;
+        padding: 0px;
+    }
 }

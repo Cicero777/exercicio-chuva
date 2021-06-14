@@ -1,8 +1,11 @@
 
 #section-head{
     background-color: linen;
-    padding-left: 2%;
+    padding-left: 70px;
     display: flex;
+    top: 0%;
+    left: 2%;
+    width: 100%;
     
 }
 
@@ -11,13 +14,13 @@ p{
 }
 
 #paragrafo-2{
-    font-size: 24px;
+    font-size: 2vw;
     margin-bottom: 0%;
 }
 
 #paragrafo-3{
     margin-top: 0%;
-    font-size: 18px;
+    font-size: 1vw;
 }
 
 #title{
@@ -32,9 +35,36 @@ p{
 
 #botao-linguagem{
     background-color: linen;  
-    padding-bottom: 10%;
-    padding-top: 10%;
-    padding-left: 10%;
-    padding-right: 10%;
+    margin-top: .5vw;
+    margin-left: 3vw;
+    padding: .5vw;
+    padding-left: 1.5vw;
+
+
     
+}
+
+.icone-login{
+    width: 40px;
+    height: 40px;
+    margin-left: 20%;
+    margin-bottom: -10px;
+}
+
+.login{
+    display: flex;
+    margin-top: 1.5vw;
+    margin-left: 2.5vw;
+}
+
+.msg{
+    text-align: right;
+}
+
+
+@media (min-width: 992px) {
+    #section-head{
+        left: 15%;
+        
+    }
 }

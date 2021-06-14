@@ -9,6 +9,7 @@ import { RodapeComponent } from './rodape/rodape.component';
 import { HeadComponent } from './head/head.component';
 import { CardResumoComponent } from './card-resumo/card-resumo.component';
 import { CardDiscussoesComponent } from './card-discussoes/card-discussoes.component';
+import { SecaoTrabalhosComponent } from './secao-trabalhos/secao-trabalhos.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { CardDiscussoesComponent } from './card-discussoes/card-discussoes.compo
     HeadComponent,
     CardResumoComponent,
     CardDiscussoesComponent,
+    SecaoTrabalhosComponent,
   ],
   imports: [
     BrowserModule,

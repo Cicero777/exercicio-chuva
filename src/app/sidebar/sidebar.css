@@ -1,18 +1,21 @@
 
 .sidebar {
-    background-color: lightgray;
+    background-color: white;
     width: 15%;
-    padding-top: 0%;
     padding-bottom: 100%;
     position: fixed;
-    padding-right: 5px;
+    border-style: solid;
+    border-right-width: 5px;
+    border-left-width: 0px;
+    border-top-width: 0px;
+    border-right-color: lightgray;
     z-index: 2;
     
 }
 
 .container-fluid{
     padding: 0px;  
-    background-color: lightgray;  
+    background-color: white;  
 }
 
 .nav-item-1{
@@ -34,6 +37,13 @@
 .nav-item{
     background-color: white;
     margin-bottom: 3px;
+    border-style: solid;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 3px;
+    border-color: lightgray;
+    
 }
 
 .nav-link{
@@ -41,11 +51,6 @@
     padding-left: 25px;
 }
 
-.nav-item-x{
-    background-color: white;
-    padding-bottom: 100%;
-    
-}
 
 a:hover{
     background-color: linen;

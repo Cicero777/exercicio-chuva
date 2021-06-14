@@ -39,7 +39,7 @@
     font-size: 1.5vw;
 }
 #paragrafo-2{
-    margin-left: 3%;
+    margin-left: 1vw;
 }
 
 #container-botoes{
@@ -78,11 +78,25 @@ button{
     #bloco-3{
         display: inline-block;
         width: 100%;
-        
+        height: 50%;   
+    }
+    #bloco-2{
+        display: none;
+    }
+    #bloco-1{
+        width: 100%;
     }
     #video{
         margin-bottom: 5%;
         margin-left: 10%;
         width: 80%;
     }
+    #paragrafo-1{
+        font-size: 2.5vw;
+        width: 100%;
+    }
+    .head-2{
+        margin-left: 2%;
+    }
+    
 }

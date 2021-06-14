@@ -1,7 +1,7 @@
 
-#section-head{
+#head{
     background-color: linen;
-    padding-left: 70px;
+    padding-left: 50px;
     display: flex;
     top: 0%;
     left: 2%;
@@ -13,8 +13,12 @@ p{
     margin-bottom: 0%;
 }
 
+#paragrafo-1{
+    font-size: 1vw;
+}
+
 #paragrafo-2{
-    font-size: 2vw;
+    font-size: 1.5vw;
     margin-bottom: 0%;
 }
 
@@ -23,25 +27,19 @@ p{
     font-size: 1vw;
 }
 
-#title{
-    background-color: linen;
-}
-
 #checkbox{
-    margin-left: 200px;
-    margin-top: 25px;
+    margin-left: 10%;
+    margin-top: 1%;
     
 }
 
 #botao-linguagem{
     background-color: linen;  
     margin-top: .5vw;
-    margin-left: 3vw;
+    margin-left: 2vw;
     padding: .5vw;
-    padding-left: 1.5vw;
+    padding-left: 1vw;
 
-
-    
 }
 
 .icone-login{
@@ -62,9 +60,32 @@ p{
 }
 
 
-@media (min-width: 992px) {
-    #section-head{
-        left: 15%;
-        
+#title{
+    margin-left: 13%;
+}
+
+.logo{
+    display: none;
+}
+
+@media (max-width: 992px) {
+    #checkbox{
+        display: none;
+    }
+    .login{
+        display: none;
+    }
+    #title{
+        display: none;
+    }
+    #head{
+        height: 50px;
+    }
+    .logo{
+        height: 50px;
+        border-radius: 80%;
+        display: flex;
+        z-index: 2;
+        margin-left: 85%;
     }
 }

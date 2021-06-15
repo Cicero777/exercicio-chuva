@@ -1,12 +1,11 @@
 
 .card{
-    margin-top: 3%;
+    margin-top: 1%;
     margin-left: 19%;
     width: 70%;
     height: 100%;
     margin-bottom: 5%;
     cursor: pointer;
-    
 }
 
 .head{
@@ -14,30 +13,50 @@
     padding-top: 1%;
     padding-left: 2%;
     padding-bottom: 1%;
-    margin-bottom: 1%;
     font-size: 25px;
     
 }
 
 .card-body{
-    overflow: auto;
-    overflow-y: scroll;
-
+    overflow:hidden;
+    height: 190px;
 }
 
-.tamanho-card{
-    height: 400px;
-    
+.area-card{
+    height: 250px;
+    margin-bottom: 90px;
+    margin-top: 50px;
 }
 
+
+#btn-resumo{
+    display: none;
+}
+#btn-resumo:checked + .area-card{
+    height: 550px;
+}
+
+#btn-resumo:checked + .area-card .card-body{
+    height: 500px;
+}
+
+.ver-mais{
+    color: darkorange;
+    text-align: end;
+    margin-top: 5px;
+}
 
 @media (max-width: 992px) {
     .card{
-        margin-top: 0%;
         margin-left: 10%;
-        margin-right: 90%;
-        margin-bottom: 5%;
-        margin-top: 55%;
-        
+        margin-right: 90%; 
+    }
+    
+    #btn-resumo:checked + .area-card{
+        height: 800px;
+    }
+    
+    #btn-resumo:checked + .area-card .card-body{
+        height: 750px;
     }
 }

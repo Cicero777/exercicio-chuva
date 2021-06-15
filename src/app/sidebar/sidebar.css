@@ -9,7 +9,7 @@
     border-left-width: 0px;
     border-top-width: 0px;
     border-right-color: lightgray;
-    z-index: 2;
+    z-index: 3;
     
 }
 
@@ -80,7 +80,7 @@ label[for="btn-sidebar"]{
     label[for="btn-sidebar"]{
         display: block;
         position: fixed;
-        z-index: 2;
+        z-index: 3;
     }
     #btn-sidebar:checked ~ .sidebar{
         margin-left: 0;

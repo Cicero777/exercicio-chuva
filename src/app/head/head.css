@@ -80,6 +80,8 @@ p{
     }
     #head{
         height: 50px;
+        position: fixed;
+        z-index: 2;
     }
     .logo{
         height: 50px;

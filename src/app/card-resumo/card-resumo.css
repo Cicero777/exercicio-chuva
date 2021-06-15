@@ -1,10 +1,9 @@
 
 .card{
-    
     margin-top: 3%;
     margin-left: 19%;
     width: 70%;
-    height: 20%;
+    height: 100%;
     margin-bottom: 5%;
     cursor: pointer;
     
@@ -20,24 +19,16 @@
     
 }
 
+.card-body{
+    overflow: auto;
+    overflow-y: scroll;
 
-label[for="btn-resumo"]{
-    text-align: left;
-    background-color: blue;
+}
+
+.tamanho-card{
+    height: 400px;
+    background-color: brown;
     
-}
-
-/*
-#btn-resumo{
-    height: 100%;
-    width: 100%;
-    cursor: pointer;
-    background-color: brown;    
-}
-*/
-
-#btn-resumo:checked ~ .head{
-    background-color: darkslategray;
 }
 
 
@@ -48,5 +39,6 @@ label[for="btn-resumo"]{
         margin-right: 90%;
         margin-bottom: 5%;
         margin-top: 55%;
+        
     }
 }

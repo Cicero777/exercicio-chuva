@@ -1,11 +1,10 @@
 
 .card{
-    margin: auto;
-    margin-top: 5%;
+    margin-top: 1%;
     margin-left: 19%;
     width: 70%;
-    height: 20%;
-    margin-bottom: 5%;
+    height: 100%;
+    
     
 }
 
@@ -14,21 +13,62 @@
     padding-top: 1%;
     padding-left: 2%;
     padding-bottom: 1%;
-    margin-bottom: 1%;
     font-size: 25px;
+    cursor: pointer;
     
 }
 
 .card-body{
-    overflow: auto;
-    overflow-y: scroll;
-    
+    overflow:hidden;
+    height: 190px;
+    cursor: pointer;
+    border-style: solid;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 2px;
+    border-color: lightgray;
+
+}
+
+.paragrafo-body{
+    text-align: center;
+    color: #ED7839;
+}
+
+.conteudo{
+    display: none;
+}
+
+
+.area-card{
+    height: 250px;
+    margin-bottom: 90px;
+    margin-top: 50px;
+    border-bottom-width: 2px;
+    border-color: lightgray;
+}
+
+
+#btn-discussoes{
+    display: none;
+}
+#btn-discussoes:checked + .area-card{
+    height: 550px;
+}
+
+#btn-discussoes:checked + .area-card .conteudo{
+    border: 1px solid #E7E7E7;
+    margin: 10px;
+    display: flex;
+    height: 200px;
 }
 
 @media (max-width: 992px) {
     .card{
-        margin-top: 0%;
         margin-left: 10%;
-        margin-bottom: 5%;
+        margin-right: 90%; 
     }
+    
+    
 }

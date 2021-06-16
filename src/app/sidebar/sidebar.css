@@ -19,7 +19,8 @@
 }
 
 .nav-item-1{
-    background-color: darkorange;
+    background: 
+    linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
     padding-top: 8%;
     padding-bottom: 8%;
     padding-left: 10%;
@@ -60,7 +61,8 @@
 
 label[for="btn-sidebar"]{
     padding: 5px;
-    background-color: darkorange;
+    background: 
+    linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
     color: white;
     font-family: Arial;
     text-align: center;
